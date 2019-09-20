@@ -39,13 +39,13 @@ python ./platforms/js/build_js.py --build_wasm --emscripten_dir /usr/Emscripten/
 
 ## Checkout the project
 
-Once wasm file is build, checkout this project and update CMakeLists.txt file and run the following commands
+Once wasm file is build, checkout this project and update CMakeLists.txt file in each directory and run build.sh
 
 ```
-mkdir build
-cd build
-emconfigure cmake ../src
-emmake make
+EmscriptenExample1: This is an example of how to convert C++ to ASM.js
+EmscriptenExample2: This is an example of how to convert C++ to WASM
+OpenCVExample1: This is an example of how to convert OpenCV C++ (detect rectangle code) to WASM
+OpenCVExample2: This is an example of how to convert OpenCV C++ (detect rectangle  and get bird eye view code) to WASM
 ```
 
 ## Output
